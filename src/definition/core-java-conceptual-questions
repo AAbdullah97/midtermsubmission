@@ -1,11 +1,20 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.A set of instructions that can be used to produce various kinds of output.
+A set of instructions that can be used to produce various kinds of output.
 What jdk contains or composed of and define each components?
+Runtime Interpreter,Compiler,Applet viewer,Debugger,Class file disassembler,Header and stub file,Documentation
+generator,Applet demos, API source code.
 What is IDE?
+IDE stands for Integrated Development Environment which is a software application which enables users to
+write and debug Java programs easily.
 What are the IDEs available in the market to support java?
+Eclipse,IntelliJ IDEA,NetBeans,Codeenvy,DrJava,BlueJ,JGrasp etc.
 Explain the entire java life cycle.
+-Create high-level Java text file and save as a .java file(e.g. test.java).
+-Compile the file(test.java) which results in a .class file(test.class) which contains the bytecodes.
+-Class loader loads the file into memory.
+-JVM reads the bytecodes in the memory and translate into machine code.
 what is class?
 What is object?
 What is the entry point of an application?
