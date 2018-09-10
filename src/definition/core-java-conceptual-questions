@@ -63,7 +63,7 @@ What is API? Name list of API that you have used so far.
 API stands for Application Programming Interface.It includes all Java packages,classes and interfaces along
 with their method,fields and constructors.List of API: java.io,java.lang,java.util.Random,java.util.Scanner,
 java.io.Filereader etc.
-Does java support multiple inheritance, explain why or why not?
+Does java support multiple inheritance, explain why or why not????
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
