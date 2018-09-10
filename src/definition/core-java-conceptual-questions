@@ -3,8 +3,10 @@ Please answer the below core-java Questions:
 What is programing language?
 A set of instructions that can be used to produce various kinds of output.
 What jdk contains or composed of and define each components?
-Runtime Interpreter,Compiler,Applet viewer,Debugger,Class file disassembler,Header and stub file,Documentation
-generator,Applet demos, API source code.
+JDK contains JRE along with development tools such as compiler,debugger etc.JDK is a super set of JRE.
+JRE - JRE is the environment where JVM runs.It contains JVM,class libraries, and other files.
+Compiler - Converts source code(.java) into byte code(.class).
+Debugger - The Java Debugger,jdb, is a simple command-line debugger for java class.
 What is IDE?
 IDE stands for Integrated Development Environment which is a software application which enables users to
 write and debug Java programs easily.
@@ -16,16 +18,47 @@ Explain the entire java life cycle.
 -Class loader loads the file into memory.
 -JVM reads the bytecodes in the memory and translate into machine code.
 what is class?
+A class is a blueprint from which individual objects are created.It describes the behavior/state of the object.
 What is object?
+Object is a bundle of data and its behavior. A car has states - color,model,vin number and behavior can be forward and
+reverse biased and break.
 What is the entry point of an application?
+The entry point is a class having a method with signature public static void main(String[] args).
 Why main is static?
+We do not need to create object for static methods to run.They can run itself.
 Which class is the superclass of all classes?
+Object class in the java.lang package.
 What is difference between path and classpath variables?
+Path variable is used to set the path for all java software tools such as javac.exe,java.exe
+Class path is used to set the path for java classes.
 What is the difference between an Interface and Abstract class?
+Interface can have only abstract methods.Abstract class can have abstract and non-abstract methods.
+Interface has only static and final variables where as abstract class can have final, non-final,static and non-static
+variables. Interface can not provide the implementation of abstract class.
+All the members of interface are public by default.Members of an abstract class can be public,private,protected
+or default.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+No.Interface will be implemented by other class.To use Abstract class we need to create another class
+that will extend abstract class and the object of the child class will call both abstract
+(abstract in parent,implemented in child class) and non-abstract methods.
 what is Access Specifier?
+Access Specifier helps to restrict the scope of a class, constructor , variable , method or data member.
+There are four types of access specifier in java:
+Default – Scope is package level.No keyword required
+Private - Object accessible only in class in which they are declared.
+Protected - Scope is within the class and subclass.
+Public - Accessible to all.
 What is OOP ? Define each feature of java OOP.
+OOP stands for Object Oriented Programming.
+Object Oriented Programming features:
+Abstraction-hiding unnecessary details of an object from the user.
+Encapsulation-means binding object state(fields) and behaviour(methods) together.
+Inheritance-process by which one class acquires the properties and functionalities of another class
+Polymorphism-feature that allows us to perform a single action in different ways.
 What is Java Package and which package is imported by default?
+A package is a group of classes, interfaces and other packages.It is used to provide access control
+and to locate the related classes.Two types:Built-in packages and the User defined package.
+java.lang is imported by default.
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
