@@ -48,7 +48,7 @@ public class MakePyramid {
 
     }
 
-        /*   Implement a large Pyramid of stars in the screen with java.
+    /*   Implement a large Pyramid of stars in the screen with java.
 
                               *
                              * *
@@ -56,8 +56,7 @@ public class MakePyramid {
                            * * * *
                           * * * * *
                          * * * * * *
-
-        */
+  */
 
 
 

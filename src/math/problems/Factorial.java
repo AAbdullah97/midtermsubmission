@@ -3,6 +3,11 @@ package math.problems;
 /**
  * Created by mrahman on 04/02/18.
  */
+/*
+ * Factorial of 5! = 5 x 4 X 3 X 2 X 1 = 120.
+ * Write a java program to find Factorial of a given number using Recursion as well as Iteration.
+ *
+ */
 public class Factorial {
 
     // recursive method to find factorial of given number
@@ -13,8 +18,6 @@ public class Factorial {
 
         return x*factorial(x-1);
     }
-
-
 
     //iterative method to find factorial of given number
 
@@ -28,14 +31,6 @@ public class Factorial {
     // Driver method
     public static void main(String[] args)
     {
-
-        /*
-         * Factorial of 5! = 5 x 4 X 3 X 2 X 1 = 120.
-         * Write a java program to find Factorial of a given number using Recursion as well as Iteration.
-         *
-         */
-
-
         int x = 5;
         System.out.println("Factorial of "+ x + " is " + factorial(5));
         System.out.println("Factorial of "+ x + " is " + fact(5));
