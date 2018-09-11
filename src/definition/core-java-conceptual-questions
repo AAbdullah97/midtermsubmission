@@ -64,7 +64,10 @@ API stands for Application Programming Interface.It includes all Java packages,c
 with their method,fields and constructors.List of API: java.io,java.lang,java.util.Random,java.util.Scanner,
 java.io.Filereader etc.
 Does java support multiple inheritance, explain why or why not?
+No,Java does not allow multiple inheritance to avoid the ambiguity caused by it.
 What is method overloading and when it happens?
+In method overloading we can have multiple methods with the same name and same or different return type.All these
+method must have different parameters for the same return type.It is a part of java polymorphism OOP principals.
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
