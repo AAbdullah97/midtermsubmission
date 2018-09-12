@@ -83,12 +83,24 @@ not the same.
 If we don't have a constructor declared, what is called during the object creation?
 Default constructor
 What is "this" keyword in java ?
+The keyword "this" is a reference variable in Java that refers to the current object.
+It can be used to refer instance variable of current class and to invoke or initiate current class constructor.
 What is "super" keyword in java? How many possible way can you use?
+Super is a keyword used in java to refer the super class or base class.It is used inside a sub-class method definition
+to call a method defined in the superclass. Private methods of the super-class cannot be called. Only public and
+protected methods can be called by the super keyword. It is also used by class constructors to invoke constructors of
+its parent class.
 What is JVM stand for ?
+JVM stands for Java virtual machine.It enables a computer to run Java programs as well as programs written in other
+languages and compiled to Java bytecode.
 Is JVM platform independent?
+No, JVMs are not platform independent.
 What version of java are you using?
+java version "1.8.0_151"
 What is JAR stand for ?
+JAR stands for "Java ARchive".
 What is the difference between JDK and JVM?
+
 What is the difference between JVM and JRE?
 What is compile time and run time?
 What is heap?
