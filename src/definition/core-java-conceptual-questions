@@ -69,12 +69,19 @@ What is method overloading and when it happens?
 In method overloading we can have multiple methods with the same name and same or different return type.All these
 method must have different parameters for the same return type.It is a part of java polymorphism OOP principals.
 Explain exceptions in java and how to handle it.
+An exception is an unwanted or unexpected event, which occurs during the execution of a program (at run time)
+and it disrupts the normal flow of the program’s instructions.
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
+Constructor is a block of code that initializes the object. A constructor resembles method in java but it is
+not a method as it does not have a return type.Constructor has same name as the class.
 Can we have multiple constructors in a class?
+Yes,a class can have multiple constructors, as long as their signature (the parameters they take) are
+not the same.
 If we don't have a constructor declared, what is called during the object creation?
+Default constructor
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
 What is JVM stand for ?
